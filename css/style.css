@@ -1,3 +1,33 @@
 body {
     background-color: tan;
 }
+
+#formElements {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+
+#formElements button {
+    height: 20px;
+    width: 75px;
+    margin: auto;
+}
+
+@media (min-width: 600px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #formElements {
+        display: flex;
+        padding: 10px;
+    }
+
+    #formElements button {
+        display: grid;
+    }
+}

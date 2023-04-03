@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <title>DOM manipulation example</title>
     <link rel="stylesheet" href="css/style.css">
+    <Script defer src="script/index.js"></Script>
 </head>
 
 <body>
     <header>
         <h1>Enter student's information</h1>
-        <button>Change Background Color</button>
+        <button id="changeBG">Change Background Color</button>
     </header>
 
-    <section>
+    <section id="formElements">
         <label>First Name:</label>
         <input id="firstname" type="text">
         <label>Last Name:</label>
@@ -25,8 +26,8 @@
 
     <section>
         <h2>Enrolled students</h2>
-        <ul>Sudents Enrolled in CIT</ul>
-        <ul>Sudents Enrolled in CST</ul>
+        <ul id="cit">Sudents Enrolled in CIT</ul>
+        <ul id="cst">Sudents Enrolled in CST</ul>
     </section>
 
 </body>
